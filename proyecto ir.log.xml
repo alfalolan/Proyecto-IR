@@ -1,321 +1,281 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:type>C</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0021] Descripción del problema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0012</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0022] Fortaleza)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0013</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0023] Debilidades actuales)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0022</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Fortalezas actuales] -> [[FOR-001]Fortalezas actuales]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0022</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0022</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Fortaleza] -> [Fortalezas actuales]]]></rem:description>
+<rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>PRG-0024</rem:owner><rem:date>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>GLO-0022</rem:owner><rem:date>
+<rem:owner>SEC-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [[FOR-001]Fortalezas actuales] -> [[FOR-001]Trato cercano al cliente]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Name] actualizada [VIsión General del Sistema] -> [Introducción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0002] Alcance)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0015] Descripción de actores de negocios actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0011] Personas participantes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Alcance] -> [Alcance del proyecto]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0010] Organizaciones participantes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0006] Glosario de términos del dominio del problema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0008] Pros y contras de la situación actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº3 ([SEC-0009] Participantes en el proyecto) y nº2 ([SEC-0003] Objetivos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
 <rem:owner>SEC-0006</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado hijo nº8 ([PRG-0021] Descripción del problema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0023</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Debilidades actuales] -> [[DEB-001] Debilidades actuales]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0022</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Con la situación actiual del sistema encontramos las siguientes fortalezas:
-·Los clientes reciben un trato cercano por parte de la empresa al realizarse todo el contacto mediante teléfono o entrevistas presenciales. Debido a este trato cercano y al carácter personal de nuestro dominio del problema, la mayoría de clientes repiten con nuestra empresa más de una vez.
-·Tras más de 20 años trabajando los empleados de la empresa han llegado a un gran dominio de las herramientas que utilizan, lo que les ha conseuido realizar los procesos actuales con agilidad.
-·Parte de sus sistema está modernizado, usando calendarios web, almacenamiento en la nube y una página web algo insuficiente.] -> [Los clientes reciben un trato cercano por parte de la empresa al realizarse todo el contacto mediante teléfono o entrevistas presenciales. Debido a este trato cercano y al carácter personal de nuestro dominio del problema, la mayoría de clientes repiten con nuestra empresa más de una vez.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0012</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº2 ([PRG-0024] Introducción) y nº1 ([GLO-0022] [FOR-001]Fortalezas actuales)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0025</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:owner>SEC-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0025] [FOR-002] Dominio de las herramientas actuales)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0012</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0026] [FOR] Parte del sistema modernizado)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0023</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0027</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0013</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PRG-0027] Introducción)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0028</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0023</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [En la situación actual encontramos las siguientes debilidades:
-
-·
-] -> [En la situación actual encontramos las siguientes debilidades:
-
-·Tras tantos años trabajando tienen una gran cantidad de documentación, archivos y expedientes que no han sido digitalizados y son difíciles de acceder y buscar.
-
-·La página web que utilizan actualmente está desfasada y no ofrece ninguna funcionalidad a los clientes más allá de un teléfono de contacto e información básica sobre el despacho
-
-·La comunicación entre el cliente del abogado, y la administración de justicia es tediosa ya que se realiza por medios distintos (correo electrónico y lexnet) y en cada paso la empresa debe guardar el archivo recibido o enviado en su almacenamiento en la nube, este proceso es muy ineficiente.
-
-·Los abogados de la empresa tienen que visualizar grabaciones de videos de larga duración, para encontrar el pequeño segmento que realmente necesitan perdiendo así una gran cantidad de tiempo.
-
-·A la hora de ofrecer un presupuesto o una previsión de plazos a un cliente, ésto se realiza de manera personalizada cuando en la mayoría de casos se podría realizar con una plantilla.
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0013</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº1 ([GLO-0023] [DEB-001] Debilidades actuales) y nº2 ([PRG-0027] Introducción)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0013</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0028] [DEB-002] Página web desfasada)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0029</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0023</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [En la situación actual encontramos las siguientes debilidades:
-
-·
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0012</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PRG-0024] Introducción)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0026</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0026</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [[FOR] Parte del sistema modernizado] -> [[FOR-003] Parte del sistema modernizado]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0005] Introducción al dominio del problema)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0022]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0001]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0022</rem:owner><rem:date>
+<rem:owner>SEC-0011</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>GLO-0023</rem:owner><rem:date>
+<rem:owner>SEC-0008</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [En la situación actual encontramos las siguientes debilidades:
-
-·Tras tantos años trabajando tienen una gran cantidad de documentación, archivos y expedientes que no han sido digitalizados y son difíciles de acceder y buscar.
-
-·La página web que utilizan actualmente está desfasada y no ofrece ninguna funcionalidad a los clientes más allá de un teléfono de contacto e información básica sobre el despacho
-
-·La comunicación entre el cliente del abogado, y la administración de justicia es tediosa ya que se realiza por medios distintos (correo electrónico y lexnet) y en cada paso la empresa debe guardar el archivo recibido o enviado en su almacenamiento en la nube, este proceso es muy ineficiente.
-
-·Los abogados de la empresa tienen que visualizar grabaciones de videos de larga duración, para encontrar el pequeño segmento que realmente necesitan perdiendo así una gran cantidad de tiempo.
-
-·A la hora de ofrecer un presupuesto o una previsión de plazos a un cliente, ésto se realiza de manera personalizada cuando en la mayoría de casos se podría realizar con una plantilla.
-] -> [Tras tantos años trabajando tienen una gran cantidad de documentación, archivos y expedientes que no han sido digitalizados y son difíciles de acceder y buscar.]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0012] Fortalezas de la situación actual)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:owner>SEC-0008</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>10</rem:day>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº20 ([PRG-0021] Descripción del problema)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0013] Debilidades de la situación actual)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0023</rem:owner><rem:date>
+<rem:owner>SEC-0014</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
@@ -323,29 +283,1396 @@
 <rem:type>U</rem:type>
 <rem:owner>SEC-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0034] Objetivos)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Objetivos] -> [Objetivos del proyecto]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>PRG-0033</rem:owner><rem:date>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0009] Participantes en el proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0003] Objetivos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0016] Descripción de procesos de negocio actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0036</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([SEC-0042] Requisitos de seguridad del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0043</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0044</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0026</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([SEC-0036] Requisitos no funcionales del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0026</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([SEC-0044] Restricciones técnicas del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0045</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0046</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0047]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0035</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0032</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0035] Requisitos de conducta del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0036</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0038] Requisitos de usabilidad del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0036</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([SEC-0040] Requisitos de eficicencia del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0036</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([SEC-0043] Otros requisitos no funcionales del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0026</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([SEC-0045] Requisitos de integración del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0040</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0026</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([SEC-0046] Información sobre trazabilidad)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0042</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0032</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0033] Requisitos de información del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0036</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0047]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0032</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0034] Rquisistos de reglas de negocios del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0026</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0032] Requisitos funcionales del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0038</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0036</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0037] Requisitos de fiabilidad del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0037</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0036</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([SEC-0041] Requisitos de portabilidad del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0033</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0034</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0039</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0036</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0039] Requisitos de mantenibilidad del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0041</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0019</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0019] Descripción del entorno de software actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0018</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0021] Objetivos de negocio)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0027</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0030</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Especificacioón de actores del sistema] -> [Especificación de actores del sistema]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0022] Modelos de proeso de negocio a implantar)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Modelos de proeso de negocio a implantar] -> [Modelos de proceso de negocio a implantar]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0028</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0029</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0026</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0027] Requisitos generales del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0017] Entorno tecnológico actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0026</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0028] Casos de uso del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0028</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0029] Diagramas de casos de uso del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0028</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0030] Especificacioón de actores del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0031</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0032</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0024] Descripción de procesos de negocio a implantar)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0023] Descripción de actores de negocio a implantar)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0026</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0025</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Descripci] -> [Descripción de los subsistemas del sistema a desarrollar]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0025</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0030</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0028</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0031] Especificación de casos de uso del sistema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0018] Descripción del entorno de hardware actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0011</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº12 ([PRG-0013] Abogado generalista)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº12 ([PRG-0019] LOPD)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0016</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0017</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([PRG-0009] Juez)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0010</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº9 ([GLO-0010] Fiscal)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0011</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº11 ([PRG-0012] Jurisprudencia)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0012</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0013</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsOrderedByName] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº13 ([GLO-0014] Tribunal)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0016</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0012</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0013</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº10 ([PRG-0011] BOE)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº16 ([PRG-0017] Minuta)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0017</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0015</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0015</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0018</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº17 ([PRG-0018] Iguala)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0008</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº15 ([PRG-0016] LexNet)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0014</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº14 ([PRG-0015] CGPJ)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0018</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº18 ([PRG-0019] LOPD)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0008</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([PRG-0008] Procurador)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0001] Descripcçón)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor
+gestión de la información existente así como ahorrar tiempo en las
+ tareas que se realizan con mayor frecuencia, para ello se nos
+solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
+ tareas que se realizan con mayor frecuencia, para ello se nos
+solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
+ tareas que se realizan con mayor frecuencia, para ello se nos
+solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
+ tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Descripcçón] -> [Descripción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0004] Derecho contencioso-administrativo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0007</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0002] Derecho civil)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0005</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0005</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([PRG-0006] Hoja de encargo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([GLO-0007] LOPD)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+·Acceso a base de datos de Jurispruencia.
+·Integración con dropbox Business.
+·Gestión de plazos integrada con Google Calendar
+.Gestión de agenda integrada con Google Calendar
+·Automatización de presupuestos
+·Gestión de archivos digitalizados
+·Transcripción automatizada de audios
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor \n gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor
+gestión de la información existente así como ahorrar tiempo en las
+ tareas que se realizan con mayor frecuencia, para ello se nos
+solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+·Acceso a base de datos de Jurispruencia.
+·Integración con dropbox Business.
+·Gestión de plazos integrada con Google Calendar
+.Gestión de agenda integrada con Google Calendar
+·Automatización de presupuestos
+·Gestión de archivos digitalizados
+·Transcripción automatizada de audios
+] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
+ tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
+ tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+   *Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
+ tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+   *Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
+ tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor \n gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([PRG-0003] Derecho penal)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([PRG-0005] Tirant lo Blanch)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0008]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [En el desarrollo, participan las siguientes personas físicas:
-   · Alfonso Luis Alonso Lanzarán: desarrollador del proyecto
-   · Pablo Caballero María: desarrollador del proyecto
-   · Ricardo Carreño Mariño: diseñador gráfico de la herramienta
-   · Antonio Daniel Porcar Aragón: jefe de diseño del proyecto y encargado de revisar todos los cambios que se hagan
-   · César Beltrán Ramírez: cliente al que le desarrollamos la herramienta] -> [En el desarrollo, participan las siguientes personas físicas:
-   · Alfonso Luis Alonso Lanzarán: desarrollador del proyecto
-   · Pablo Caballero María: desarrollador del proyecto
-   · Ricardo Carreño Mariño: diseñador gráfico de la herramienta
-   · Antonio Daniel Porcar Aragón: jefe de diseño del proyecto y encargado de revisar todos los cambios que se hagan
-   · César Beltrán Ramírez: representante del buffet de abogados]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº4 ([ORG-0003] Ministerio de Justicia)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([ORG-0002] Universidad de Sevilla)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -354,7 +1681,7 @@
 <rem:month>10</rem:month>
 <rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([GLO-0030] [DEB-004])]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº6 ([GLO-0031] [DEB-005] Falta de modelos para plazos y tarifas)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -367,12 +1694,62 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
+ tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+   ·Acceso a base de datos de Jurispruencia.
+   ·Integración con dropbox Business.
+   ·Gestión de plazos integrada con Google Calendar
+   ·Gestión de agenda integrada con Google Calendar
+   ·Automatización de presupuestos
+   ·Gestión de archivos digitalizados
+   ·Transcripción automatizada de audios
+] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+
+Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
+ tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
+
+   · Acceso a base de datos de Jurispruencia.
+   · Gestión de plazos
+   · Gestión de agenda
+   · Automatización de presupuestos
+   · Gestión de archivos digitalizados
+   · Transcripción automatizada de audios
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0032] Organizaciones)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
 <rem:owner>SEC-0013</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0029] [DEB-003] Comunicación tediosa)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº5 ([GLO-0030] [DEB-004])]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0031</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -385,35 +1762,12 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>PRG-0034</rem:owner><rem:date>
+<rem:owner>SEC-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Los objetivos de este proyecto es desarrollar una herramienta capaz de integrar los siguientes elementos:
-   · Conexión directa con un sistema de almacenamiento en la nube
-   · Gestor de archivos que permita realizar un excelente tratamiento de la información
-   · Sistema de fechas y plazos capaz de ser compartido entre distintos usuarios] -> [Los objetivos de este proyecto es desarrollar una herramienta capaz de integrar los siguientes elementos:
-   · Conexión directa con un sistema de almacenamiento en la nube
-   · Gestor de archivos que permita realizar un excelente tratamiento de la información
-   · Sistema de fechas y plazos capaz de ser compartido entre distintos usuarios
-   · Transcripción de archivos de vídeos automática capaz de que el sistema en segundo plano genere el texto correspondiente al vídeo que se ha subido a la nube
-   · Sistema de automatización de presupuestos mejorado con IA  tal que, con datos de presupuestos anteriores, proporcione un presupuesto que el sistema considere correcto o, si el cliente no lo considera correcto, aprender de dicho error e irse automejorando
-   · Herramienta de conexción directa con LexNet y automatización del proceso común del despacho de abogados tales como descargar archivo de LexNet, subir a la nube, mandar correo al cliente... para que no se pierda tiempo en dicho proceso]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0033</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [En el desarrollo, participan las siguientes personas físicas:
-   · Alfonso Luis Alonso Lanzarán: desarrollador del proyecto
-   · Pablo Caballero María: desarrollador del proyecto
-   · Ricardo Carreño Mariño: diseñador gráfico de la herramienta
-   · Antonio Daniel Porcar Aragón: jefe de diseño del proyecto y encargado de revisar todos los cambios que se hagan
-   · César Beltrán Ramírez: cliente al que le desarrollamos la herramienta]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0034] Objetivos)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -449,12 +1803,57 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0030</rem:owner><rem:date>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([ORG-0001] CEM abogados)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ORG-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ORG-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0028</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>11</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización desarrolladora [ORG-0002] Universidad de Sevilla]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -463,50 +1862,40 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 <rem:month>10</rem:month>
 <rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([GLO-0031] [DEB-005] Falta de modelos para plazos y tarifas)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([PRG-0027] Introducción)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
-<rem:day>11</rem:day>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0032] Organizaciones)]]></rem:description>
+<rem:description><![CDATA[Añadida organización cliente [ORG-0001] CEM abogados]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>PRG-0032</rem:owner><rem:date>
+<rem:owner>GLO-0023</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [En este proyecto se han visto involucradas las siguientes organizaciones:
-   · CEMabogados: el despacho de abogados al cual le desarrollamos la herramienta
-   · Universidad de Sevilla: encargada de sumistrar apoyo tanto financiero como digital a la hora de desarrollar la herramienta
-   · Ministerio de Justicia: nos cederá una licencia para poder integrar en nuestra herramienta la base de datos de LexNet]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Text] actualizada [En la situación actual encontramos las siguientes debilidades:
+
+·Tras tantos años trabajando tienen una gran cantidad de documentación, archivos y expedientes que no han sido digitalizados y son difíciles de acceder y buscar.
+
+·La página web que utilizan actualmente está desfasada y no ofrece ninguna funcionalidad a los clientes más allá de un teléfono de contacto e información básica sobre el despacho
+
+·La comunicación entre el cliente del abogado, y la administración de justicia es tediosa ya que se realiza por medios distintos (correo electrónico y lexnet) y en cada paso la empresa debe guardar el archivo recibido o enviado en su almacenamiento en la nube, este proceso es muy ineficiente.
+
+·Los abogados de la empresa tienen que visualizar grabaciones de videos de larga duración, para encontrar el pequeño segmento que realmente necesitan perdiendo así una gran cantidad de tiempo.
+
+·A la hora de ofrecer un presupuesto o una previsión de plazos a un cliente, ésto se realiza de manera personalizada cuando en la mayoría de casos se podría realizar con una plantilla.
+] -> [Tras tantos años trabajando tienen una gran cantidad de documentación, archivos y expedientes que no han sido digitalizados y son difíciles de acceder y buscar.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>PRG-0032</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0033</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>10</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0031</rem:owner><rem:date>
+<rem:owner>GLO-0029</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>11</rem:day>
@@ -515,7 +1904,7 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>PRG-0034</rem:owner><rem:date>
+<rem:owner>PRG-0027</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>11</rem:day>
@@ -524,60 +1913,92 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:owner>GLO-0026</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
 <rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
- tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
- tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-   · Acceso a base de datos de Jurispruencia.
-   · Gestión de plazos
-   · Gestión de agenda
-   · Automatización de presupuestos
-   · Gestión de archivos digitalizados
-   · Transcripción automatizada de audios
+<rem:description><![CDATA[Propiedad [Name] actualizada [[FOR] Parte del sistema modernizado] -> [[FOR-003] Parte del sistema modernizado]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº1 ([GLO-0023] [DEB-001] Debilidades actuales) y nº2 ([PRG-0027] Introducción)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0026] [FOR] Parte del sistema modernizado)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0028] [DEB-002] Página web desfasada)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0029] [DEB-003] Comunicación tediosa)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0030</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0026</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [El despacho de abogados generalista al cual le desarrollamos la herramienta 
 ]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0036</rem:owner><rem:date>
+<rem:owner>ORG-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([SEC-0040] Requisitos de eficicencia del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0036</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0039] Requisitos de mantenibilidad del sistema)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Institución encargada de sumistrar apoyo tanto financiero como digital a la hora de desarrollar la herramienta, así como el equipo de trabajo]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0046</rem:owner><rem:date>
+<rem:owner>ORG-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
@@ -585,621 +2006,28 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0047]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0001]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0022]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0036</rem:owner><rem:date>
+<rem:owner>SEC-0012</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0037] Requisitos de fiabilidad del sistema)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([PRG-0024] Introducción)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:owner>SEC-0006</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-·Acceso a base de datos de Jurispruencia.
-·Integración con dropbox Business.
-·Gestión de plazos integrada con Google Calendar
-.Gestión de agenda integrada con Google Calendar
-·Automatización de presupuestos
-·Gestión de archivos digitalizados
-·Transcripción automatizada de audios
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0036</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 ([SEC-0043] Otros requisitos no funcionales del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor \n gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0036</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([SEC-0041] Requisitos de portabilidad del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor \n gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor
-gestión de la información existente así como ahorrar tiempo en las
- tareas que se realizan con mayor frecuencia, para ello se nos
-solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0042</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0039</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0001] Descripcçón)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Descripcçón] -> [Descripción]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-·Acceso a base de datos de Jurispruencia.
-·Integración con dropbox Business.
-·Gestión de plazos integrada con Google Calendar
-.Gestión de agenda integrada con Google Calendar
-·Automatización de presupuestos
-·Gestión de archivos digitalizados
-·Transcripción automatizada de audios
-] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0037</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0045</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0036</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0038] Requisitos de usabilidad del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0044</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0026</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([SEC-0044] Restricciones técnicas del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0026</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([SEC-0045] Requisitos de integración del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0026</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 ([SEC-0046] Información sobre trazabilidad)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0047]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0043</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0040</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0041</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0036</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([SEC-0042] Requisitos de seguridad del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [ACT-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0038</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Modelos de proeso de negocio a implantar] -> [Modelos de proceso de negocio a implantar]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0027</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0026</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0028] Casos de uso del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0030</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0028</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0030] Especificacioón de actores del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0032</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0026</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0032] Requisitos funcionales del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0024] Descripción de procesos de negocio a implantar)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0032</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0033] Requisitos de información del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0032</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0034] Rquisistos de reglas de negocios del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0024</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0035</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0031</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0036</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0029</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0026</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0026</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([SEC-0036] Requisitos no funcionales del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0025</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0033</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0028</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0030</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Especificacioón de actores del sistema] -> [Especificación de actores del sistema]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0034</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0032</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0035] Requisitos de conducta del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0028</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0031] Especificación de casos de uso del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0020</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0022] Modelos de proeso de negocio a implantar)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0023</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0028</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0029] Diagramas de casos de uso del sistema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0023] Descripción de actores de negocio a implantar)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0025</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Descripci] -> [Descripción de los subsistemas del sistema a desarrollar]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0026</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0027] Requisitos generales del sistema)]]></rem:description>
+<rem:description><![CDATA[Eliminado hijo nº8 ([PRG-0021] Descripción del problema)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1212,7 +2040,34 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0017</rem:owner><rem:date>
+<rem:owner>GLO-0025</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0025] [FOR-002] Dominio de las herramientas actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº2 ([PRG-0024] Introducción) y nº1 ([GLO-0022] [FOR-001]Fortalezas actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0019</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
@@ -1221,25 +2076,34 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:owner>GLO-0023</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº12 ([PRG-0013] Abogado generalista)]]></rem:description>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0006</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado hijo nº12 ([PRG-0019] LOPD)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº20 ([PRG-0021] Descripción del problema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0023</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>GLO-0012</rem:owner><rem:date>
+<rem:owner>GLO-0019</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
@@ -1248,19 +2112,19 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>GLO-0015</rem:owner><rem:date>
+<rem:owner>GLO-0022</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Fortaleza] -> [Fortalezas actuales]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>GLO-0018</rem:owner><rem:date>
+<rem:owner>GLO-0022</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
 <rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
 </rem:change>
@@ -1275,21 +2139,12 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº18 ([GLO-0020] Derecho laboral)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>GLO-0023</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>10</rem:month>
-<rem:day>10</rem:day>
+<rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0021]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Debilidades actuales] -> [[DEB-001] Debilidades actuales]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -1301,35 +2156,8 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº15 ([PRG-0016] LexNet)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0013</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº13 ([GLO-0014] Tribunal)]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0015</rem:owner><rem:date>
+<rem:owner>GLO-0020</rem:owner><rem:date>
 <rem:year>2023</rem:year>
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
@@ -1337,76 +2165,54 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº14 ([PRG-0015] CGPJ)]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0021]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:owner>SEC-0005</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>10</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº11 ([PRG-0012] Jurisprudencia)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0013</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0021] Descripción del problema)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:owner>GLO-0022</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº16 ([PRG-0017] Minuta)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0012</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Fortalezas actuales] -> [[FOR-001]Fortalezas actuales]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:owner>GLO-0023</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [IsOrderedByName] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0016</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0017</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Text] actualizada [En la situación actual encontramos las siguientes debilidades:
+
+·
+] -> [En la situación actual encontramos las siguientes debilidades:
+
+·Tras tantos años trabajando tienen una gran cantidad de documentación, archivos y expedientes que no han sido digitalizados y son difíciles de acceder y buscar.
+
+·La página web que utilizan actualmente está desfasada y no ofrece ninguna funcionalidad a los clientes más allá de un teléfono de contacto e información básica sobre el despacho
+
+·La comunicación entre el cliente del abogado, y la administración de justicia es tediosa ya que se realiza por medios distintos (correo electrónico y lexnet) y en cada paso la empresa debe guardar el archivo recibido o enviado en su almacenamiento en la nube, este proceso es muy ineficiente.
+
+·Los abogados de la empresa tienen que visualizar grabaciones de videos de larga duración, para encontrar el pequeño segmento que realmente necesitan perdiendo así una gran cantidad de tiempo.
+
+·A la hora de ofrecer un presupuesto o una previsión de plazos a un cliente, ésto se realiza de manera personalizada cuando en la mayoría de casos se podría realizar con una plantilla.
+]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1415,50 +2221,32 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº17 ([PRG-0018] Iguala)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0018</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0016</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº18 ([GLO-0020] Derecho laboral)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:owner>SEC-0012</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº18 ([PRG-0019] LOPD)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0022] Fortaleza)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0023] Debilidades actuales)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0019</rem:owner><rem:date>
+<rem:owner>PRG-0024</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
@@ -1472,561 +2260,116 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 <rem:description><![CDATA[Añadido hijo nº17 ([PRG-0019] LAJ)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0019</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0020</rem:owner><rem:date>
+<rem:owner>GLO-0022</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:owner>GLO-0023</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0004] Derecho contencioso-administrativo)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº9 ([GLO-0010] Fiscal)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0002] Derecho civil)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0009</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0011</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0003</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0008]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [En la situación actual encontramos las siguientes debilidades:
 
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
- tareas que se realizan con mayor frecuencia, para ello se nos
-solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
- tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
+·
 ]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:owner>GLO-0022</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PRG-0003] Derecho penal)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Name] actualizada [[FOR-001]Fortalezas actuales] -> [[FOR-001]Trato cercano al cliente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0022</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Con la situación actiual del sistema encontramos las siguientes fortalezas:
+·Los clientes reciben un trato cercano por parte de la empresa al realizarse todo el contacto mediante teléfono o entrevistas presenciales. Debido a este trato cercano y al carácter personal de nuestro dominio del problema, la mayoría de clientes repiten con nuestra empresa más de una vez.
+·Tras más de 20 años trabajando los empleados de la empresa han llegado a un gran dominio de las herramientas que utilizan, lo que les ha conseuido realizar los procesos actuales con agilidad.
+·Parte de sus sistema está modernizado, usando calendarios web, almacenamiento en la nube y una página web algo insuficiente.] -> [Los clientes reciben un trato cercano por parte de la empresa al realizarse todo el contacto mediante teléfono o entrevistas presenciales. Debido a este trato cercano y al carácter personal de nuestro dominio del problema, la mayoría de clientes repiten con nuestra empresa más de una vez.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([OBJ-0002] Gestión de usuarios)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0006</rem:owner><rem:date>
+<rem:owner>OBJ-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº10 ([PRG-0011] BOE)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0011</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
- tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
- tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-   *Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0005</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0008</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0010</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([PRG-0005] Tirant lo Blanch)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor
-gestión de la información existente así como ahorrar tiempo en las
- tareas que se realizan con mayor frecuencia, para ello se nos
-solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
- tareas que se realizan con mayor frecuencia, para ello se nos
-solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0008</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0009</rem:owner><rem:date>
+<rem:owner>STK-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:owner>SEC-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([PRG-0006] Hoja de encargo)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0007</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Eliminado hijo nº3 ([OBJ-0002] Gestión de usuarios)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>GLO-0005</rem:owner><rem:date>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([OBJ-0002] Gestión de usuarios)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:owner>OBJ-0004</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
- tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-   *Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-] -> [La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. 
-
-Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las
- tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:
-
-   ·Acceso a base de datos de Jurispruencia.
-   ·Integración con dropbox Business.
-   ·Gestión de plazos integrada con Google Calendar
-   ·Gestión de agenda integrada con Google Calendar
-   ·Automatización de presupuestos
-   ·Gestión de archivos digitalizados
-   ·Transcripción automatizada de audios
-]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [permitir una comunicación fluida, dinámica y confidencial entre un cliente y su defendido, permitiendo asimismo el intercambio de documentos legales o la destrucción automática de los mismos en caso de cancelación del caso]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([GLO-0007] LOPD)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 ([PRG-0008] Procurador)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº8 ([PRG-0009] Juez)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0015</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0014</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0016] Descripción de procesos de negocio actuales)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0014</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0017</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0018</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0009</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0010] Organizaciones participantes)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0017</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0018] Descripción del entorno de hardware actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0016</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0019</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0012</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0017</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0019] Descripción del entorno de software actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0020</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0017] Entorno tecnológico actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0021</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0020</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0021] Objetivos de negocio)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0009</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
 <rem:owner>SEC-0011</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([STK-0001] Alfonso Luis Alonso Lanzarán)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0005</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
@@ -2034,261 +2377,945 @@ Tras varios años desempeñando la profesión se requiere una mejor gestión de la i
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0001]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0033] Personas con 0 hijos y 3 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:owner>SEC-0011</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0009] Participantes en el proyecto)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº5 ([STK-0004] Antonio Daniel Porcar Aragón)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0011] Personas participantes)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº3 ([SEC-0009] Participantes en el proyecto) y nº2 ([SEC-0003] Objetivos)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0013</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Alcance] -> [Alcance del proyecto]]]></rem:description>
+<rem:description><![CDATA[Eliminado hijo nº1 ([OBJ-0002] Gestión de usuarios)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Objetivos] -> [Objetivos del proyecto]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([OBJ-0001] Feed personalizado)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0008</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0012] Fortalezas de la situación actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0014</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0015] Descripción de actores de negocios actuales)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0008] Pros y contras de la situación actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0010</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0008</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0013] Debilidades de la situación actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0008</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [VIsión General del Sistema] -> [Introducción]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0002] Alcance)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
 <rem:owner>SEC-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([OBJ-0002] Gestión de usuarios)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:owner>SEC-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0003] Objetivos)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº4 ([OBJ-0003] Gestión de casos)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0004</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0005</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
+<rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0032] Organizaciones con 0 hijos y 2 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>STK-0003</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:owner>SEC-0011</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0005] Introducción al dominio del problema)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº4 ([STK-0003] Ricardo Carreño Mariño)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([PRG-0033] Personas)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0002]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([OBJ-0002] Gestión de usuarios)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:owner>STK-0002</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:owner>SEC-0011</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0006] Glosario de términos del dominio del problema)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº6 ([STK-0005] César Beltrán Ramírez)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:owner>STK-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [Permitir que cada abogado cree distintos feeds personalizados que se actualicen periódicamente, obteniendo información de distintas fuentes seleccionadas individualmente, y que estén disponibles para su consulta regular] -> [permitir que cada abogado cree distintos feeds personalizados que se actualicen periódicamente, obteniendo información de distintas fuentes seleccionadas individualmente, y que estén disponibles para su consulta regular]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([OBJ-0002] Gestión de usuarios)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminada traza desde [OBJ-0002] Gestión de usuarios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0002] Gestión de usuarios con 0 hijos y 2 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
 <rem:year>2023</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([STK-0002] Pablo Caballero María)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([PRG-0032] Organizaciones)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [OBJ-0006] Reserva de citas entre abogado y cliente]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([OBJ-0004] Comunicación entre abogado y cliente)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza desde [OBJ-0004] Comunicación entre abogado y cliente]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza desde [OBJ-0008] Gestión de información]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0008</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [permitir que la relación entre un abogado y un cliente suyo específico a través de un caso legal sea reflejado en forma de un almacén de toda la documentación asociada al mismo] -> [permitir que la relación entre un abogado y un cliente suyo específico a través de un caso legal sea reflejado en forma de un almacén de toda la documentación asociada al mismo. Toda la información sensible será debidamente encriptada a fin de garantizar el cumplimiento de la LOPD]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0005</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [OBJ-0003] Gestión de casos]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [OBJ-0008] Gestión de información]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [permitir que un abogado, dentro de un feed, pueda descargarse la información y asociarla a un caso determinada. Asimismo, durante el intercambio de documentos en un chat perteneciente a un caso, los documentos intercambiados se introducen automáticamente en la carpeta de dicho caso]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([OBJ-0005] Gestión de calendarios)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [permitir que un cliente consulte la agenda y los huecos libres de su abogado antes de proponer una cita a una hora y lugar concreto, a espera de recibir confirmación por parte de este abogado]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0008</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([OBJ-0009] Integración de información)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0005</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([OBJ-0006] Reserva de citas entre abogado y cliente)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [OBJ-0004] Comunicación entre abogado y cliente]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([OBJ-0007] Gestión de pagos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminada traza hacia [OBJ-0003] Gestión de casos]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [OBJ-0008] Gestión de información]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza desde [OBJ-0003] Gestión de casos]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminada traza desde [OBJ-0004] Comunicación entre abogado y cliente]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0007</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0008</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([OBJ-0008] Gestión de información)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0008</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza desde [OBJ-0004] Comunicación entre abogado y cliente]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0005</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0004] Gestión de calendarios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0011</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0001] Registro de usuario]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0010</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0013</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([OBJ-0014] Fomentar el desarrollo profesional de los abogados y el personal)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0001] Registro de usuario)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([OBJ-0012] Mantener la ética profesional y la integridad)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([OBJ-0015] Maximizar la rentabilidad y el crecimiento)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([GRF-0002] Creación de casos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0014</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0008</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0003] Comunicación abogado - cliente]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0004</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0003] Comunicación abogado - cliente]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0034] Objetivos con 0 hijos y 3 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([OBJ-0010] Proporcionar asesoramiento legal de alta calidad)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([PRG-0034] Objetivos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([OBJ-0011] Representar los intereses de los clientes de manera efectiva)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([OBJ-0013] Gestionar eficientemente los casos y proyectos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0014</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [Los bufetes de abogados deben promover el crecimiento y desarrollo profesional de sus abogados y personal, ofreciendo oportunidades de capacitación, mentoría y desarrollo de habilidades] -> [promover el crecimiento y desarrollo profesional de sus abogados y personal, ofreciendo oportunidades de capacitación, mentoría y desarrollo de habilidades]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0012</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [ La ética y la integridad son fundamentales en la práctica legal. Los bufetes de abogados deben asegurarse de que sus abogados cumplan con los más altos estándares éticos y legales en todas las interacciones con los clientes y terceros] -> [asegurarse de que sus abogados cumplan con los más altos estándares éticos y legales en todas las interacciones con los clientes y terceros]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0010</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [ofrecer asesoramiento legal experto y de alta calidad a sus clientes en una variedad de áreas del derecho. Esto es el bojetivo principal de un despacho de abogados e implica contar con abogados con experiencia y conocimientos sólidos en diversas disciplinas legales] -> [ofrecer asesoramiento legal experto y de alta calidad a sus clientes en una variedad de áreas del derecho. Esto es el objetivo principal de un despacho de abogados e implica contar con abogados con experiencia y conocimientos sólidos en diversas disciplinas legales]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([STK-0006] Administrador)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0002</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0012</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0015</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0002] Creación de casos]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0003] Comunicación abogado - cliente]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([GRF-0003] Comunicación abogado - cliente)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0005</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0007</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0005] Gestión de pagos]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([GRF-0005] Gestión de pagos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0007] Gestión de citas]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([GRF-0006] Registro de documentos legales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0008</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0006] Registro de documentos legales]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0007] Gestión de citas]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0006</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0004] Gestión de calendarios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0005</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0007] Gestión de citas]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([GRF-0007] Gestión de citas)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0008</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0008</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0008] Gestión de feeds personalizados]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0008] Gestión de feeds personalizados]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([GRF-0004] Gestión de calendarios)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0007</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0009</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza hacia [GRF-0008] Gestión de feeds personalizados]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2023</rem:year>
+<rem:month>10</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([GRF-0008] Gestión de feeds personalizados)]]></rem:description>
 </rem:change>
 </rem:log>
