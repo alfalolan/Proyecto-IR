@@ -1551,7 +1551,368 @@ También se utiliza una base de datos de <a href='#GLO-0012' class="rem_ref">juri
 <h2 id="SEC-0028" class="section">6.2 Casos de uso del sistema</h2>
 <h3 id="SEC-0029" class="section">6.2.1 Diagramas de casos de uso del sistema</h3>
 <h3 id="SEC-0030" class="section">6.2.2 Especificación de actores del sistema</h3>
+<div id="ACT-0001">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0001</th>
+<th class="name_column" colspan="1">Cliente legal</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0001-actorRole-html" class=""><p>Este actor representa ell cliente que emplea el sistema por un determinado proceso legal.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0002">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0002</th>
+<th class="name_column" colspan="1">Abogado</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0002-actorRole-html" class=""><p>Este actor representa el tipo de agente legal que se encarga de representar al cliente acusado por un determinado proceso legal.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0003">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0003</th>
+<th class="name_column" colspan="1">Administrador</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0003-actorRole-html" class=""><p>Este actor representa Se encarga de revisar manualmente y aprobar o denegar la creación de perfiles.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0003-comments-html" class="remus_comments"><p>Tiene privilegios de lectura, modificación o eliminación del perfil.</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0031" class="section">6.2.3 Especificación de casos de uso del sistema</h3>
+<div id="UC-0001">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0001</th>
+<th class="name_column" colspan="2">Consulta de información sobre un caso </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0001--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando un abogado desea consultar información sobre un caso de uno de sus clientes. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0001-precondition-html" class=""><p>El abogado colabora con un cliente en un caso</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0001-postcondition-html" class=""><p>El abogado tiene acceso a la información almacenada sobre el caso de su cliente</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0002">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0002</th>
+<th class="name_column" colspan="2">Fijar cita </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0002--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando Un cliente desea fijar una cita con el abogado con que trabaja en un caso. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0002-precondition-html" class=""><p>El cliente trabaja con un abogado en un caso.   <br />
+El cliente reserva en un hueco libre del calendario: fecha, hora, modalidad y la prioridad. Además se incluye una descripción de lo que se tratará </p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0002-postcondition-html" class=""><p>La reserva se guarda en el sistema con estatus: pendiente, este cambiará según transcuya y finalice la cita</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0003">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0003</th>
+<th class="name_column" colspan="2">Consulta de casos de un determinado juez </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0003--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando El abogado desea consultar información sobre casos previos de dicho <a href='#GLO-0009' class="rem_ref">juez</a>.. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0003-precondition-html" class=""><p>El abogado ha de trabajar en un caso a cargo de dicho <a href='#GLO-0009' class="rem_ref">juez</a></p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0003-postcondition-html" class=""><p>El abogado tiene acceso a un historial de casos de dicho <a href='#GLO-0009' class="rem_ref">juez</a></p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0004">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0004</th>
+<th class="name_column" colspan="2">Registro de usuario </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0004--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando Un usuario desea registrarse en el sistema. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0004-precondition-html" class=""><p>El usuario ha de proveer los datos que el sistema solicita y ciertos datos extra si se trata de un abogado.   <br />
+El usuario ha de validarse en el sistema mediante certificado digital independientemente del tipo que éste sea.   <br />
+La información ha de ser validada por el administrador</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0004-postcondition-html" class=""><p>La información es validada por el administrador y completa exitosamente su registro</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0005">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0005</th>
+<th class="name_column" colspan="2">Gestión de calendario-abogado </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0005--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando Un abogado desea consultar y gestionar su calendario. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0005-precondition-html" class=""><p>El abogado consulta el calendario.</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0005-postcondition-html" class=""><p>El abogado puede crear y añadir eventos, configurando prioridad y notificaciones además de ser avisado en caso de solape con el de otro compañero en caso de ser un calendario conjunto o que le sea asignada una tarea</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0006">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0006</th>
+<th class="name_column" colspan="2">Consulta de calendario-cliente </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0006--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando Un cliente desea consultar su calendario. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0006-precondition-html" class=""><p>El usuario accede al calendario.</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0006-postcondition-html" class=""><p>El usuario podrá consultar la agenda de su abogado para fijar una cita o consultar en qué fecha y horario tiene una planificada.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0007">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0007</th>
+<th class="name_column" colspan="2">Pago telemático </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0007--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando Un cliente se dispone a abonar la cantidad fijada con el abogado por el caso tratado. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0007-precondition-html" class=""><p>El cliente acuerda con el abogado los términos de pago.    <br />
+El cliente selecciona el método de pago telemático entre las alternativas proporcionadas.</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0007-postcondition-html" class=""><p>El cliente efectua correctamente el pago según lo acordado en los términos de pago   </p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h2 id="SEC-0032" class="section">6.3 Requisitos funcionales del sistema</h2>
 <h3 id="SEC-0033" class="section">6.3.1 Requisitos de información del sistema</h3>
 <div id="IRQ-0001">
@@ -1580,7 +1941,7 @@ También se utiliza una base de datos de <a href='#GLO-0012' class="rem_ref">juri
 <td colspan="2">
 <ul class="specific_data">
 <li id="DAT-0002">
-<span id="DAT-0002-description-html" class="">Los comentarios, sugerencias y avisos personalizados que surjan a lo largo del proceso judicial</span>
+<span id="DAT-0002-description-html" class="">Avisos personalizados que surjan a lo largo del proceso judicial, así como noticias provenientes de distintas fuentes a las que el abogado está suscrito</span>
 </li>
 </ul>
 </td>
@@ -1940,6 +2301,45 @@ Ha de cumplirse la <a href='#GLO-0007' class="rem_ref">LOPD</a>.</p></div>
 <h1 id="SEC-0047" class="appendix">A Actas de reuniones</h1>
 <h1 id="SEC-0048" class="appendix">B Documentación relevante</h1>
 <h1 id="SEC-0049" class="appendix">C Glosario de acrónimos y abreviaturas</h1>
+<div id="UC-0008">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0008</th>
+<th class="name_column" colspan="2">Consulta de feed </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0008--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando Un abogado accede al sistema y desea ver su feed. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0008-precondition-html" class=""><p>El abogado accede al sistema y está suscrito a una fuente entre las proporcionadas.</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0008-postcondition-html" class=""><p>El abogado puede ver y consultar el feed personalizado que dicho medio proporcione.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0008-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
             // set tooltips of rem:ref references to glossary items or class supertypes
