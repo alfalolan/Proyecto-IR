@@ -36,9 +36,533 @@
 <nav id="toc" role="navigation">
 <h1>Índice</h1>
 <ul class="toc_list toc_list_level_1">
+<li>1 <a href="#SEC-0050">Introducción</a></li>
+<ul class="toc_list">
+<li>1.1 <a href="#SEC-0051">Alcance del proyecto</a></li>
+<li>1.2 <a href="#SEC-0052">Participantes en el proyecto</a></li>
+<ul class="toc_list">
+<li>1.2.1 <a href="#SEC-0053">Organizaciones participantes</a></li>
+<li>1.2.2 <a href="#SEC-0054">Personas participantes</a></li>
+</ul>
+<li>1.3 <a href="#SEC-0055">Copia de objetivos del proyecto</a></li>
+</ul>
+<li>2 <a href="#SEC-0056">Arquitectura lógica del sistema</a></li>
+<ul class="toc_list">
+<li>2.1 <a href="#SEC-0057">Diagramas de la arquitectura del sistema</a></li>
+<li>2.2 <a href="#SEC-0058">Descripción de la arquitectura del sistema</a></li>
+</ul>
+<li>3 <a href="#SEC-0059">Modelo de clases del sistema</a></li>
+<ul class="toc_list">
+<li>3.1 <a href="#SEC-0060">Diagrama de clases del sistema</a></li>
+<li>3.2 <a href="#SEC-0061">Descripción de las clases del sistema</a></li>
+<li>3.3 <a href="#SEC-0062">Diagrama de estado de las clases del sistema</a></li>
+</ul>
 </ul>
 </nav>
 <div class="pagebreak"></div>
+<div id="PRG-0044">
+<div id="PRG-0044-text-html" class=""></div>
+</div>
+<div id="PRG-0045">
+<div id="PRG-0045-text-html" class=""></div>
+</div>
+<div id="PRG-0046">
+<div id="PRG-0046-text-html" class=""></div>
+</div>
+<h1 id="SEC-0050" class="section">1 Introducción</h1>
+<h2 id="SEC-0051" class="section">1.1 Alcance del proyecto</h2>
+<div id="PRG-0047">
+<div id="PRG-0047-text-html" class=""><p>La empresa que solcita la aplicación sofware es CEMabogados, un pequeño despacho de abogados formado por dos abogados en el centro de Sevilla. </p>
+<p>Tras varios años desempeñando la profesión se requiere una mejor gestión de la información existente así como ahorrar tiempo en las   <br />
+ tareas que se realizan con mayor frecuencia, para ello se nos solicitan las siguientes funcionalidades:</p>
+<p>· Acceso a base de datos de Jurispruencia.   <br />
+   · Gestión de plazos   <br />
+   · Gestión de agenda   <br />
+   · Automatización de presupuestos   <br />
+   · Gestión de archivos digitalizados   <br />
+   · Transcripción automatizada de audios   <br />
+   · Conexión directa con <a href='#GLO-0016' class="rem_ref">LexNet</a>   </p></div>
+</div>
+<h2 id="SEC-0052" class="section">1.2 Participantes en el proyecto</h2>
+<h3 id="SEC-0053" class="section">1.2.1 Organizaciones participantes</h3>
+<div id="ORG-0004">
+<table class="organization remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
+<th class="name_column" colspan="1">CEM abogados</th>
+</tr>
+</thead>
+<tr>
+<th>Dirección</th>
+<td colspan="1">
+<div id="ORG-0004-address-html" class=""><p><span class="tbd" title='Por determinar'>PD</span></p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ORG-0004-comments-html" class="remus_comments"><p>El despacho de abogados generalista al cual le desarrollamos la herramienta    </p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ORG-0005">
+<table class="organization remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
+<th class="name_column" colspan="1">Universidad de Sevilla</th>
+</tr>
+</thead>
+<tr>
+<th>Dirección</th>
+<td colspan="1">
+<div id="ORG-0005-address-html" class=""><p><span class="tbd" title='Por determinar'>PD</span></p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ORG-0005-comments-html" class="remus_comments"><p>Institución encargada de sumistrar apoyo tanto financiero como digital a la hora de desarrollar la herramienta, así como el equipo de trabajo</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ORG-0006">
+<table class="organization remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
+<th class="name_column" colspan="1">Ministerio de Justicia</th>
+</tr>
+</thead>
+<tr>
+<th>Dirección</th>
+<td colspan="1">
+<div id="ORG-0006-address-html" class=""><p><span class="tbd" title='Por determinar'>PD</span></p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ORG-0006-comments-html" class="remus_comments"><p>Nos cederá una licencia para poder integrar en nuestra herramienta la base de datos de <a href='#GLO-0016' class="rem_ref">LexNet</a></p></div>
+</td>
+</tr>
+</table>
+</div>
+<h3 id="SEC-0054" class="section">1.2.2 Personas participantes</h3>
+<div id="STK-0007">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Alfonso Luis Alonso Lanzarán</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Universidad de Sevilla</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0007-stakeholderRole-html" class=""><span class="tbd" title='Por determinar'>PD</span>                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0008">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Pablo Caballero María</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Universidad de Sevilla</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0008-stakeholderRole-html" class=""><span class="tbd" title='Por determinar'>PD</span>                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0008-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0009">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Ricardo Carreño Mariño</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Universidad de Sevilla</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0009-stakeholderRole-html" class=""><span class="tbd" title='Por determinar'>PD</span>                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0009-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0010">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Antonio Daniel Porcar Aragón</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Universidad de Sevilla</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0010-stakeholderRole-html" class=""><span class="tbd" title='Por determinar'>PD</span>                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0010-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0011">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">César Beltrán Ramírez</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0001">CEM abogados</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0011-stakeholderRole-html" class=""><span class="tbd" title='Por determinar'>PD</span>                        (es cliente, es usuario)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0011-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0055" class="section">1.3 Copia de objetivos del proyecto</h2>
+<div id="OBJ-0016">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0016</th>
+<th class="name_column" colspan="1">Feed personalizado</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (10/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="OBJ-0016-description-html" class=""><p>El sistema deberá permitir que cada abogado cree distintos feeds personalizados que se actualicen periódicamente, obteniendo información de distintas fuentes seleccionadas individualmente, y que estén disponibles para su consulta regular.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="OBJ-0016-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0017">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0017</th>
+<th class="name_column" colspan="1">Gestión de usuarios</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (10/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="OBJ-0017-description-html" class=""><p>El sistema deberá permitir que diferentes usuarios (tanto abogados, como clientes potenciales de esos mismos abogados) puedan crear perfiles en la aplicación, mediante su certificado digital..</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="OBJ-0017-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0018">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0018</th>
+<th class="name_column" colspan="1">Gestión de casos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (10/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="OBJ-0018-description-html" class=""><p>El sistema deberá permitir que un usuario pueda buscar un abogado específico, presentar su caso ante el mismo, obtener un presupuesto detallado de este, e iniciar su andadura legal.</p></div>
+</td>
+</tr>
+<tr>
+<th>Subobjetivos</th>
+<td>
+<ul class="subobjectives">
+<li id="OBJ-0019">
+<span class="subobjective">
+            [OBJ-0019] Comunicación entre abogado y cliente:
+        </span>
+<span id="OBJ-0019-description-html" class="">El sistema deberá permitir una comunicación fluida, dinámica y confidencial entre un cliente y su defendido, permitiendo asimismo el intercambio de documentos legales o la destrucción automática de los mismos en caso de cancelación del caso. </span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="OBJ-0018-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0020">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0020</th>
+<th class="name_column" colspan="1">Gestión de calendarios</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (10/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="OBJ-0020-description-html" class=""><p>El sistema deberá permitir que cada abogado del bufete cree, añada actividades y consulte varios calendarios propios y de sus compañeros, así como recibir notificaciones cuando a alguien le sean asignadas tareas o estas se solapen entre compañeros.</p></div>
+</td>
+</tr>
+<tr>
+<th>Subobjetivos</th>
+<td>
+<ul class="subobjectives">
+<li id="OBJ-0021">
+<span class="subobjective">
+            [OBJ-0021] Reserva de citas entre abogado y cliente:
+        </span>
+<span id="OBJ-0021-description-html" class="">El sistema deberá permitir que un cliente consulte la agenda y los huecos libres de su abogado antes de proponer una cita a una hora y lugar concreto, a espera de recibir confirmación por parte de este abogado. </span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">quedaría bien</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="OBJ-0020-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0022">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0022</th>
+<th class="name_column" colspan="1">Gestión de pagos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (10/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="OBJ-0022-description-html" class=""><p>El sistema deberá permitir que, cuando un caso se da por finalizado, el beneficiario de la defensa legal pueda pagar de manera telemática y mediante diferentes vías a su abogado defensor.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="OBJ-0022-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0023">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0023</th>
+<th class="name_column" colspan="1">Gestión de información</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (10/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="OBJ-0023-description-html" class=""><p>El sistema deberá permitir que la relación entre un abogado y un cliente suyo específico a través de un caso legal sea reflejado en forma de un almacén de toda la documentación asociada al mismo. Toda la información sensible será debidamente encriptada a fin de garantizar el cumplimiento de la <a href='#GLO-0007' class="rem_ref">LOPD</a>.</p></div>
+</td>
+</tr>
+<tr>
+<th>Subobjetivos</th>
+<td>
+<ul class="subobjectives">
+<li id="OBJ-0024">
+<span class="subobjective">
+            [OBJ-0024] Integración de la información:
+        </span>
+<span id="OBJ-0024-description-html" class="">El sistema deberá permitir que un abogado, dentro de un feed, pueda descargarse la información y asociarla a un caso determinada. Asimismo, durante el intercambio de documentos en un chat perteneciente a un caso, los documentos intercambiados se introducen automáticamente en la carpeta de dicho caso. </span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">en construcción</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="OBJ-0023-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h1 id="SEC-0056" class="section">2 Arquitectura lógica del sistema</h1>
+<h2 id="SEC-0057" class="section">2.1 Diagramas de la arquitectura del sistema</h2>
+<h2 id="SEC-0058" class="section">2.2 Descripción de la arquitectura del sistema</h2>
+<h1 id="SEC-0059" class="section">3 Modelo de clases del sistema</h1>
+<h2 id="SEC-0060" class="section">3.1 Diagrama de clases del sistema</h2>
+<h2 id="SEC-0061" class="section">3.2 Descripción de las clases del sistema</h2>
+<h2 id="SEC-0062" class="section">3.3 Diagrama de estado de las clases del sistema</h2>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
             // set tooltips of rem:ref references to glossary items or class supertypes
