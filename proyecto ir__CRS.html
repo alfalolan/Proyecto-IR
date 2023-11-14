@@ -1548,6 +1548,35 @@ También se utiliza una base de datos de <a href='#GLO-0012' class="rem_ref">juri
 <h1 id="SEC-0025" class="section">5 Descripción de los subsistemas del sistema a desarrollar</h1>
 <h1 id="SEC-0026" class="section">6 Catálago de requisitos del sistema a desarrollar</h1>
 <h2 id="SEC-0027" class="section">6.1 Requisitos generales del sistema</h2>
+<div id="OBJ-0016">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0016</th>
+<th class="name_column" colspan="1">cambiarNombreYHacer</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (13/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="OBJ-0016-description-html" class=""><p>El sistema deberá Bro son los del punto 1 hacer copyplaste   <br />
+.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="OBJ-0016-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h2 id="SEC-0028" class="section">6.2 Casos de uso del sistema</h2>
 <h3 id="SEC-0029" class="section">6.2.1 Diagramas de casos de uso del sistema</h3>
 <h3 id="SEC-0030" class="section">6.2.2 Especificación de actores del sistema</h3>
@@ -1697,8 +1726,36 @@ También se utiliza una base de datos de <a href='#GLO-0012' class="rem_ref">juri
 <tr>
 <th>Precondición</th>
 <td colspan="2">
-<div id="UC-0002-precondition-html" class=""><p>El cliente trabaja con un abogado en un caso.   <br />
-El cliente reserva en un hueco libre del calendario: fecha, hora, modalidad y la prioridad. Además se incluye una descripción de lo que se tratará </p></div>
+<div id="UC-0002-precondition-html" class=""><p>El cliente trabaja con un abogado en un caso.</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="5">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0015">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0015--html" class=""><p>El actor     <a href="#ACT-0001">Cliente legal (ACT-0001)</a>     encuentra un hueco libre en la agenda de su abogado y lo solicita. Además, ha de indicar modalidad, prioridad y una descripción del tema a tratar.   </p></div>
+</td>
+</tr>
+<tr id="STP-0017">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0017--html" class=""><p>Si el abogado rechaza la cita,  el actor     <a href="#ACT-0001">Cliente legal (ACT-0001)</a>     propone la cita en otro hueco en la agenda de su abogado</p></div>
+</td>
+</tr>
+<tr id="STP-0018">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0018--html" class=""><p>Si se acepta la cita,  el actor     <a href="#ACT-0002">Abogado (ACT-0002)</a>     ve en su calendario la cita fijada con los datos introducidos </p></div>
+</td>
+</tr>
+<tr id="STP-0019">
+<th class="step_number">4</th>
+<td colspan="1">
+<div id="STP-0019--html" class=""><p>Si se cancela la cita por parte de cliente o abogado,  el sistema se elimina la cita del calendario</p></div>
 </td>
 </tr>
 <tr>
@@ -1776,9 +1833,42 @@ El cliente reserva en un hueco libre del calendario: fecha, hora, modalidad y la
 <tr>
 <th>Precondición</th>
 <td colspan="2">
-<div id="UC-0004-precondition-html" class=""><p>El usuario ha de proveer los datos que el sistema solicita y ciertos datos extra si se trata de un abogado.   <br />
-El usuario ha de validarse en el sistema mediante certificado digital independientemente del tipo que éste sea.   <br />
-La información ha de ser validada por el administrador</p></div>
+<div id="UC-0004-precondition-html" class=""><p>El usuario quiere registrarse en el sistema</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="6">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0024">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0024--html" class=""><p>El actor     <a href="#ACT-0001">Cliente legal (ACT-0001)</a>     proporciona los datos de registro solicitados y el certificado digital</p></div>
+</td>
+</tr>
+<tr id="STP-0025">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0025--html" class=""><p>El actor     <a href="#ACT-0002">Abogado (ACT-0002)</a>     proporciona los datos de registro solicitados, el certificado digital, su localización geográfica, el número de colegiado, su especialidad legal, jurisdicción y ámbito.</p></div>
+</td>
+</tr>
+<tr id="STP-0026">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0026--html" class=""><p>El actor     <a href="#ACT-0003">Administrador (ACT-0003)</a>     revisa que los datos proporcionados sean correctos</p></div>
+</td>
+</tr>
+<tr id="STP-0027">
+<th class="step_number">4</th>
+<td colspan="1">
+<div id="STP-0027--html" class=""><p>Si los datos son incorrectos,  el actor     <a href="#ACT-0003">Administrador (ACT-0003)</a>     eliminará la solicitud de registro.</p></div>
+</td>
+</tr>
+<tr id="STP-0028">
+<th class="step_number">5</th>
+<td colspan="1">
+<div id="STP-0028--html" class=""><p>Si los datos son correctos,  el actor     <a href="#ACT-0003">Administrador (ACT-0003)</a>     valida la solicitud y se formaliza el registro en el sistema</p></div>
 </td>
 </tr>
 <tr>
@@ -1821,9 +1911,38 @@ La información ha de ser validada por el administrador</p></div>
 </td>
 </tr>
 <tr>
+<th rowspan="5">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0020">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0020--html" class=""><p>El actor     <a href="#ACT-0002">Abogado (ACT-0002)</a>     selecciona el calendario específico a consultar, en otro caso se muestran todos en los que colabore a la vez.</p></div>
+</td>
+</tr>
+<tr id="STP-0021">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0021--html" class=""><p>Si se crea o añade un evento,  el actor     <a href="#ACT-0002">Abogado (ACT-0002)</a>     selecciona la fecha y hora de dicha actividad o evento e incluye a los compañeros con que colabore.</p></div>
+</td>
+</tr>
+<tr id="STP-0022">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0022--html" class=""><p>El actor     <a href="#ACT-0002">Abogado (ACT-0002)</a>     configura el tipo de notificación que desea recibir y la prioridad de la actividad o evento.</p></div>
+</td>
+</tr>
+<tr id="STP-0023">
+<th class="step_number">4</th>
+<td colspan="1">
+<div id="STP-0023--html" class=""><p>Si hay solapamiento con una actividad de otro compañero,  el sistema notifica al abogado para que seleccione otro hueco en que no haya conflicto</p></div>
+</td>
+</tr>
+<tr>
 <th>Postcondición</th>
 <td colspan="2">
-<div id="UC-0005-postcondition-html" class=""><p>El abogado puede crear y añadir eventos, configurando prioridad y notificaciones además de ser avisado en caso de solape con el de otro compañero en caso de ser un calendario conjunto o que le sea asignada una tarea</p></div>
+<div id="UC-0005-postcondition-html" class=""><p>El abogado guarda los cambios si ha realizado alguno y sale del calendario</p></div>
 </td>
 </tr>
 <tr>
@@ -1909,6 +2028,160 @@ El cliente selecciona el método de pago telemático entre las alternativas propor
 <th>Comentarios</th>
 <td colspan="2">
 <div id="UC-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0009">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0009</th>
+<th class="name_column" colspan="2">Cálculo de presupuestos </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (13/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0009--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando Un abogado desea calcular el presupuesto para un caso. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0009-precondition-html" class=""><p>El abogado trabaja en un caso con su cliente y no se ha acordado presupuesto todavía</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="7">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0009">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0009--html" class=""><p>El actor     <a href="#ACT-0002">Abogado (ACT-0002)</a>     introducir datos del caso: tipo de caso, tipo de cliente, duración, etc.</p></div>
+</td>
+</tr>
+<tr id="STP-0010">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0010--html" class=""><p>El sistema calcula el presupuesto con los datos introducidos en el sistema.</p></div>
+</td>
+</tr>
+<tr id="STP-0013">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0013--html" class=""><p>Si el cliente no es una empresa, considérese una persona de a pie,  el sistema proporciona el presupuesto final calculado.</p></div>
+</td>
+</tr>
+<tr id="STP-0011">
+<th class="step_number">4</th>
+<td colspan="1">
+<div id="STP-0011--html" class=""><p>Si El cliente es una empresa ,  el actor     <a href="#ACT-0002">Abogado (ACT-0002)</a>     cuantiza monetariamente el tiempo empleado en horas y se añaden los honorarios.</p></div>
+</td>
+</tr>
+<tr id="STP-0012">
+<th class="step_number">5</th>
+<td colspan="1">
+<div id="STP-0012--html" class=""><p>Si el cliente es una empresa,  el sistema añade al presupuesto base las tasas y honorarios introducidos.</p></div>
+</td>
+</tr>
+<tr id="STP-0014">
+<th class="step_number">6</th>
+<td colspan="1">
+<div id="STP-0014--html" class=""><p>Si el cliente es una empresa,  el sistema proporciona el presupuesto final con los extras mencionados.</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0009-postcondition-html" class=""><p>El abogado proporciona un presupuesto a su cliente</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0009-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0010">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0010</th>
+<th class="name_column" colspan="2">Cálculo de plazos </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (13/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0010--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando El abogado desea hacer una estimación del tiempo que le llevará afrontar un caso. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0010-precondition-html" class=""><p>El abogado comienza a tratar un caso</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="6">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0029">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0029--html" class=""><p>El actor     <a href="#ACT-0002">Abogado (ACT-0002)</a>      introduce los datos del caso.</p></div>
+</td>
+</tr>
+<tr id="STP-0030">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0030--html" class=""><p>El sistema calcula el plazo de tiempo con los datos introducidos.</p></div>
+</td>
+</tr>
+<tr id="STP-0031">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0031--html" class=""><p>El actor     <a href="#ACT-0002">Abogado (ACT-0002)</a>     configura la prioridad del caso y cada cuánto quiere recibir notificaciones sobre dicho plazo.</p></div>
+</td>
+</tr>
+<tr id="STP-0032">
+<th class="step_number">4</th>
+<td colspan="1">
+<div id="STP-0032--html" class=""><p>El sistema Añade el plazo calculado al calendario del abogado</p></div>
+</td>
+</tr>
+<tr id="STP-0033">
+<th class="step_number">5</th>
+<td colspan="1">
+<div id="STP-0033--html" class=""><p>Si el caso concluye antes de lo previsto,  el actor     <a href="#ACT-0002">Abogado (ACT-0002)</a>     elimina el plazo de su calendario indicando que se terminó con anterioridad</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0010-postcondition-html" class=""><p>El sistema proporciona el plazo y notifica con cierta periodicidad cuando se acerque la fecha límite</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0010-comments-html" class="remus_comments"><p>Ninguno</p></div>
 </td>
 </tr>
 </table>
@@ -2132,7 +2405,7 @@ Ha de cumplirse la <a href='#GLO-0007' class="rem_ref">LOPD</a>.</p></div>
 <td colspan="2">
 <ul class="specific_data">
 <li id="DAT-0008">
-<span id="DAT-0008-description-html" class="">Información bancaria, cantidad a abonar, fecha de pago.</span>
+<span id="DAT-0008-description-html" class="">Información bancaria, cantidad a abonar, fecha de pago y la factura o justificante de pago cuando este se realice.</span>
 </li>
 </ul>
 </td>
@@ -2287,6 +2560,34 @@ Ha de cumplirse la <a href='#GLO-0007' class="rem_ref">LOPD</a>.</p></div>
 </table>
 </div>
 <h3 id="SEC-0035" class="section">6.3.3 Requisitos de conducta del sistema</h3>
+<div id="FRQ-0001">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0001</th>
+<th class="name_column" colspan="1">cambiarNombreYHacer</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (13/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0001-description-html" class=""><p>El sistema deberá <span class="tbd" title='Por determinar'>PD</span>.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h2 id="SEC-0036" class="section">6.4 Requisitos no funcionales del sistema</h2>
 <h3 id="SEC-0037" class="section">6.4.1 Requisitos de fiabilidad del sistema</h3>
 <h3 id="SEC-0038" class="section">6.4.2 Requisitos de usabilidad del sistema</h3>
