@@ -316,6 +316,16 @@
 </td>
 </tr>
 <tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
 <th>Descripción</th>
 <td colspan="1">
 <div id="OBJ-0017-description-html" class=""><p>El sistema deberá permitir que cada abogado cree distintos feeds personalizados que se actualicen periódicamente, obteniendo información de distintas fuentes seleccionadas individualmente, y que estén disponibles para su consulta regular.</p></div>
@@ -352,6 +362,16 @@
 </td>
 </tr>
 <tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
 <th>Descripción</th>
 <td colspan="1">
 <div id="OBJ-0018-description-html" class=""><p>El sistema deberá permitir que diferentes usuarios (tanto abogados, como clientes potenciales de esos mismos abogados) puedan crear perfiles en la aplicación, mediante su certificado digital..</p></div>
@@ -385,6 +405,16 @@
 <tr>
 <th>Versión</th>
 <td colspan="1">1.0 (15/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -437,6 +467,16 @@
 </td>
 </tr>
 <tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
 <th>Descripción</th>
 <td colspan="1">
 <div id="OBJ-0021-description-html" class=""><p>El sistema deberá permitir que cada abogado del bufete cree, añada actividades y consulte varios calendarios propios y de sus compañeros, así como recibir notificaciones cuando a alguien le sean asignadas tareas o estas se solapen entre compañeros.</p></div>
@@ -478,6 +518,16 @@
 </td>
 </tr>
 <tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
 <th>Descripción</th>
 <td colspan="1">
 <div id="OBJ-0023-description-html" class=""><p>El sistema deberá permitir que, cuando un caso se da por finalizado, el beneficiario de la defensa legal pueda pagar de manera telemática y mediante diferentes vías a su abogado defensor.</p></div>
@@ -511,6 +561,16 @@
 <tr>
 <th>Versión</th>
 <td colspan="1">1.0 (15/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -551,16 +611,16 @@
 </p>
 </div>
 <h2 id="SEC-0058" class="section">2.2 Descripción de la arquitectura del sistema</h2>
-<div id="PRG-0048">
-<div id="PRG-0048-text-html" class=""><p>El sistema sigue una estructura ampliamente implantada y aceptada en el mundo de la ingeniería de software.    <br />
+<div id="GLO-0060" class="glo">
+<div id="GLO-0060-text-html" class=""><p><strong>Descripción de la arquitectura del sistema</strong>: El sistema sigue una estructura ampliamente implantada y aceptada en el mundo de la ingeniería de software.   <br />
 Principalmente, se sigue el patrón arquitectónico de capas (capa de presentación, de dominio o lógica de negocio, y de acceso a recursos).   <br />
 La primera se encarga de renderizar los elementos en pantalla, la segunda, de ejecutar las operaciones con los datos y aplicar las reglas de negocio, y la tercera se encarga de las transacciones con la base de datos.   <br />
-Dentro de la misma, se usa una especificación, que es el patrón MVC (Modelo-Vista-Controlador), en la que la parte de "modelo" está dentro tanto de la capa de lógica de negocio del patrón de capas, como de la de acceso a recursos, (ya que se divide en servicio y entidades por un lado, y repositorios por el otro, respectivamente). Finalmente, la parte de "controlador" y la parte de "vista" están ambas presentes en la capa de presentación del patrón de capas.   <br />
-De esta manera, hay una base de datos internas, junto con datos accesibles mediantes APIs externas, como las de los BOEs/BOJAs, a las que acceden los módulos de repositorios, que le pasan la información a las entidades, que la convierten en objetos de POO, y los servicios les ofrecen los métodos CRUD de HTTP. Por otro lado, desde la capa de vista, se ofrece la API, que es el controlador, el punto de entrada que recibe peticiones de usuario y se sirve de las operaciones definidas en los servicios. Asimismo, en esa capa están los componentes web, agrupados y junto a sus estilos, y un módulo de seguridad qué define las politicas y los privilegios de la aplicación.   <br />
-Finalmente, hay elementos arquitectónicos transversales que involucran a toda el sistema, como las unidades de testing de diferentes niveles, o los módulos encargados de la validación de los datos del sistema, puesto que es una buena práctica tener varias capas de seguridad redundantes cuando se trata de información tan sensible como en nuestro caso.   <br />
-Una ventaja clave es la reutilización de componentes, ya que la modularidad inherente permite que la lógica de negocio, por ejemplo, sea utilizada por diferentes interfaces de usuario (diferentes pantallas, etcétera). Además, la flexibilidad y mantenibilidad del sistema se ven mejoradas, ya que las modificaciones en una capa no deberían afectar a las demás, facilitando así mantenibilidad del software.    <br />
+Dentro de la misma, se usa una especificación, que es el patrón MVC (Modelo-Vista-Controlador), en la que la parte de modelo está dentro tanto de la capa de lógica de negocio del patrón de capas, como de la de acceso a recursos, (ya que se divide en servicio y entidades por un lado, y repositorios por el otro, respectivamente).   <br />
+Finalmente, la parte de controlador y la parte de vista están ambas presentes en la capa de presentación del patrón de capas. De esta manera, hay una base de datos internas, junto con datos accesibles mediantes APIs externas, como las de los BOEs/BOJAs, a las que acceden los módulos de repositorios, que le pasan la información a las entidades, que la convierten en objetos de POO, y los servicios les ofrecen los métodos CRUD de HTTP.   <br />
+Por otro lado, desde la capa de vista, se ofrece la API, que es el controlador, el punto de entrada que recibe peticiones de usuario y se sirve de las operaciones definidas en los servicios. Asimismo, en esa capa están los componentes web, agrupados y junto a sus estilos, y un módulo de seguridad qué define las politicas y los privilegios de la aplicación.   <br />
+Finalmente, hay elementos arquitectónicos transversales que involucran a toda el sistema, como las unidades de testing de diferentes niveles, o los módulos encargados de la validación de los datos del sistema, puesto que es una buena práctica tener varias capas de seguridad redundantes cuando se trata de información tan sensible como en nuestro caso. Una ventaja clave es la reutilización de componentes, ya que la modularidad inherente permite que la lógica de negocio, por ejemplo, sea utilizada por diferentes interfaces de usuario (diferentes pantallas, etcétera). Además, la flexibilidad y mantenibilidad del sistema se ven mejoradas, ya que las modificaciones en una capa no deberían afectar a las demás, facilitando así mantenibilidad del software.   <br />
 Asimismo, la estructura en capas facilita la colaboración entre equipos, permitiendo que trabajen de manera independiente en áreas específicas del sistema. Este enfoque también simplifica las pruebas y la depuración, ya que cada capa puede ser evaluada por separado. Además, el patrón de capas establece estándares de desarrollo al proporcionar una estructura bien definida, lo que contribuye a la consistencia en la implementación de buenas prácticas durante el desarrollo.   <br />
- Finalmente, facilita la integración de tecnologías diversas, ya que las interfaces claras entre capas permiten la interacción sin problemas entre componentes heterogéneos. En conjunto, estas ventajas hacen del patrón de capas una elección valiosa para el diseño de sistemas de software robustos, modulares y adaptables</p></div>
+Finalmente, facilita la integración de tecnologías diversas, ya que las interfaces claras entre capas permiten la interacción sin problemas entre componentes heterogéneos. En conjunto, estas ventajas hacen del patrón de capas una elección valiosa para el diseño de sistemas de software robustos, modulares y adaptables.</p></div>
 </div>
 <h1 id="SEC-0059" class="section">3 Modelo de clases del sistema</h1>
 <h2 id="SEC-0060" class="section">3.1 Diagrama de clases del sistema</h2>
@@ -573,12 +633,2116 @@ Asimismo, la estructura en capas facilita la colaboración entre equipos, permiti
 </p>
 </div>
 <h2 id="SEC-0061" class="section">3.2 Descripción de las clases del sistema</h2>
-<div id="PRG-0049">
-<div id="PRG-0049-text-html" class=""><p>En primer lugar, el sistema orbita en torno a la clase de Usuario, como es convencional en las aplicaciones. Aquí se recogen sus datos personales, como nombre, apellidos, DNI, etcétera. Asimismo, este puede ser de tipo cliente legal, o agente legal, y de este último, puede ser abogado o <a href='#GLO-0009' class="rem_ref">juez</a>. Cabe destacar que la figura del administrador se encarga de la revisión y aprobación manual de los perfiles de usuario, ya que es crítico que los perfiles sean reales, personales e intransferibles, como en una aplicación de carácter administrativo.   <br />
-Por un lado, los jueces trabajan en juzgados de diferentes tipos (de prmera instancia, de apelación, etcétera), y los abogados trabajan en bufetes con sedes en distintos lugares.   <br />
-Siguiendo por esa línea, un cliente trabaja conjuntamente con su abogado, sobre un caso, que conllevará un presupuesto determinado, calculado con ayuda del sistema y estipulado en base a la naturaleza del mismo, el "asunto". Durante el transcurso del mismo, se generan 2 tipos de eventos: las reuniones o citas acordadas entre ambas, tras consultar el calendario del abogado y que a su vez se mostrará en este cuando se confirme; y toda la documentación aportada, que se almacena en el sistema asociada al caso y al cliente automáticamente y dividida por categoría, dependiendo del tipo de documento legal y transformada a objeto denuncia, sentencia, requerimiento, etcétera.   <br />
-Finalmente, los abogados acceden a sus feed, que se nutren de fuentes de información como revistas o <a href='#GLO-0016' class="rem_ref">LexNet</a>, que a su vez también proveen documentos de una misma manera similar a la anteriormente descrita.   <br />
-Adicionalmente, el sistema de gestión de pagos telemáticos genera al terminar el caso una factura en la que se pormenorizan los conceptos contemplados en el mismo, junto con el importe estipulado, algo contemplado y regulado normalmente por normativas legales.</p></div>
+<div id="TYP-0001" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0001</th>
+<th class="name_column" colspan="1">Usuario</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0001-description-html" class="code_comment code_description"><p>La entidad "Usuario" representa a cualquier usuario del sistema, y sus atributos contienen la información personal de este</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Usuario</span>
+<span class="keyword ">generalizes
+            disjoint </span>
+<span class="class_name "><a href="#TYP-0002" class="rem_ref">Administrador</a></span>, <span class="class_name "><a href="#TYP-0004" class="rem_ref">Agente legal</a></span>, <span class="class_name "><a href="#TYP-0003" class="rem_ref">Cliente legal</a></span><br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0036" class="property">
+<br /><span class="keyword">var </span>Nombre : String</li>
+<li id="ATT-0037" class="property">
+<br /><span class="keyword">var </span>Apellidos : String</li>
+<li id="ATT-0038" class="property">
+<br /><span class="keyword">var </span>Contraseña : String</li>
+<li id="ATT-0039" class="property">
+<br /><span class="keyword">var </span>Email : String</li>
+<li id="ATT-0040" class="property">
+<br /><span class="keyword">var </span>Teléfono : Integer</li>
+<li id="ATT-0041" class="property">
+<br /><span class="keyword">var </span>DNI : String</li>
+<li id="ATT-0042" class="property">
+<br /><span class="keyword">var </span>Certificado digital : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0002" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0002</th>
+<th class="name_column" colspan="1">Administrador</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0002-description-html" class="code_comment code_description"><p>El administrador es aquella figura del sistema encargada de revisar y aprobar o no manualmente la creación de perfiles de usuario, así como ejecutar otras operaciones privilegiadas como consultar toda la información de los mismos</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Administrador</span>
+<span class="keyword ">specializes </span>
+<span class="class_name ">
+<a href="#TYP-0001" class="rem_ref">Usuario</a>
+</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0043" class="property">
+<br /><span class="keyword">var </span>Privilegio : Privilegio</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0003" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0003</th>
+<th class="name_column" colspan="1">Cliente legal</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0003-description-html" class="code_comment code_description"><p>El cliente legal es aquel usuario de la aplicación con una necesidad de asistencia legal y abogacil y que desea encontrar un abogado que se la resuelva</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Cliente legal</span>
+<span class="keyword ">specializes </span>
+<span class="class_name ">
+<a href="#TYP-0001" class="rem_ref">Usuario</a>
+</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0044" class="property">
+<br /><span class="keyword">var </span>Numero de cuenta : Integer</li>
+</ul>
+<br />
+<div class="code_comment code_header">// componentes</div>
+<ul class="properties">
+<li id="COM-0065" class="property">
+<br /><span class="keyword">var </span>Casos : Caso</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0004" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0004</th>
+<th class="name_column" colspan="1">Agente legal</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0004-description-html" class="code_comment code_description"><p>El agente legal es todo aquel profesional del campo del Derecho, ya sea abogado o <a href='#GLO-0009' class="rem_ref">juez</a>, y que se encuentra registrado en el sistema, certificado mediante su número de colegiado, y especializado en una rama concreta de la abogacía</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Agente legal</span>
+<span class="keyword ">specializes </span>
+<span class="class_name ">
+<a href="#TYP-0001" class="rem_ref">Usuario</a>
+</span>
+<span class="keyword ">generalizes
+            disjoint </span>
+<span class="class_name "><a href="#TYP-0005" class="rem_ref">Abogado</a></span>, <span class="class_name "><a href="#TYP-0006" class="rem_ref">Juez</a></span><br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0045" class="property">
+<br /><span class="keyword">var </span>Número de colegiado : Integer</li>
+<li id="ATT-0046" class="property">
+<br /><span class="keyword">var </span>Especialidad legal : String</li>
+<li id="ATT-0047" class="property">
+<br /><span class="keyword">var </span>Jurisdicción : String</li>
+<li id="ATT-0049" class="property">
+<br /><span class="keyword">var </span>Ámbito : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0005" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0005</th>
+<th class="name_column" colspan="1">Abogado</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0005-description-html" class="code_comment code_description"><p>El abogado es aquel profesional de la abogacía cuya misión en la aplicación es la de ofrecer una defensa legal a aquellos clientes que lo deseen, trabajando en distintos casos según su especialidad</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Abogado</span>
+<span class="keyword ">specializes </span>
+<span class="class_name ">
+<a href="#TYP-0004" class="rem_ref">Agente legal</a>
+</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0050" class="property">
+<br /><span class="keyword">var </span>Localización geográfica : String</li>
+</ul>
+<br />
+<div class="code_comment code_header">// componentes</div>
+<ul class="properties">
+<li id="COM-0064" class="property">
+<br /><span class="keyword">var </span>Casos : Caso</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0006" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0006</th>
+<th class="name_column" colspan="1">Juez</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0006-description-html" class="code_comment code_description"><p>El <a href='#GLO-0009' class="rem_ref">juez</a> es aquel profesional de la abogacía cuya tarea es la de juzgar casos en juzgados, y emitir una valoración imparcial y lo más justa posible, evaluando un veredicto acerca del mismo</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Juez</span>
+<span class="keyword ">specializes </span>
+<span class="class_name ">
+<a href="#TYP-0004" class="rem_ref">Agente legal</a>
+</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0051" class="property">
+<br /><span class="keyword">var </span>Ámbito : Enum Literal</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0007" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0007</th>
+<th class="name_column" colspan="1">Bufete</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0007-description-html" class="code_comment code_description"><p>El bufete es la oficina laboral en la que trabajan un conjunto de abogados. De esta manera, los clientes legales pueden seleccionar del mismo aquel que deseen, y buscar por localización geográfica</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Bufete</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0052" class="property">
+<br /><span class="keyword">var </span>NIF : String</li>
+<li id="ATT-0053" class="property">
+<br /><span class="keyword">var </span>Teléfono : Integer</li>
+<li id="ATT-0054" class="property">
+<br /><span class="keyword">var </span>Razón social : String</li>
+<li id="ATT-0055" class="property">
+<br /><span class="keyword">var </span>Nombre comercial : String</li>
+</ul>
+<br />
+<div class="code_comment code_header">// componentes</div>
+<ul class="properties">
+<li id="COM-0056" class="property">
+<br /><span class="keyword">var </span>Abogados : Abogado</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0008" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0008</th>
+<th class="name_column" colspan="1">Juzgado</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0008-description-html" class="code_comment code_description"><p>El juzgado es el órgano jurisdiccional donde toman lugar los juicios a lo largo de diferentes sesiones, y donde eventualmente el <a href='#GLO-0009' class="rem_ref">juez</a> emitirá el veredicto sobre los casos</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Juzgado</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0057" class="property">
+<br /><span class="keyword">var </span>Localización geográfica : String</li>
+<li id="ATT-0058" class="property">
+<br /><span class="keyword">var </span>Tipo : String</li>
+</ul>
+<br />
+<div class="code_comment code_header">// componentes</div>
+<ul class="properties">
+<li id="COM-0059" class="property">
+<br /><span class="keyword">var </span>Jueces : Juez</li>
+<li id="COM-0069" class="property">
+<br /><span class="keyword">var </span>Casos : Caso</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0008-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0009" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0009</th>
+<th class="name_column" colspan="1">Caso</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0009-description-html" class="code_comment code_description"><p>Los casos representan los asuntos en los que los clientes legales y abogados trabajan conjuntamente para ganar, tienen una descripción que relatala cuestión acerca de la que trata,  y son juzgados en los tribunales por los  jueces.</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Caso</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0060" class="property">
+<br /><span class="keyword">var </span>Fecha inicio : Date</li>
+<li id="ATT-0061" class="property">
+<br /><span class="keyword">var </span>Fecha fin : Date</li>
+<li id="ATT-0062" class="property">
+<br /><span class="keyword">var </span>Presupuesto : Integer</li>
+<li id="ATT-0063" class="property">
+<br /><span class="keyword">var </span>Asunto : String</li>
+</ul>
+<br />
+<div class="code_comment code_header">// componentes</div>
+<ul class="properties">
+<li id="COM-0066" class="property">
+<br /><span class="keyword">var </span>Documentos : Documento</li>
+<li id="COM-0067" class="property">
+<br /><span class="keyword">var </span>Citas : Cita</li>
+<li id="COM-0068" class="property">
+<br /><span class="keyword">var </span>Factura : Factura</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0009-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0010" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0010</th>
+<th class="name_column" colspan="1">Documento</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0010-description-html" class="code_comment code_description"><p>Los documentos son objetos en el sistema y reciben un tratamiento más allá de ser simplemente texto. Pueden provenir de los feeds a los que los abogados están suscritos, o ser aportados en el chat entre abogado y cliente. El sistema se encarga de cifrarlos y almacenarlos, y, si procede, de categorizarlos según sea texto (denuncia, requerimiento, etcétera) o audio/vídeo (transcribiéndolos)</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Documento</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0070" class="property">
+<br /><span class="keyword">var </span>Título : String</li>
+<li id="ATT-0071" class="property">
+<br /><span class="keyword">var </span>Descripción : String</li>
+<li id="ATT-0072" class="property">
+<br /><span class="keyword">var </span>Contenido : String</li>
+<li id="ATT-0073" class="property">
+<br /><span class="keyword">var </span>TipoDocumento : TipoDocumento</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0010-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0011" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0011</th>
+<th class="name_column" colspan="1">Cita</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0011-description-html" class="code_comment code_description"><p>Las citas son las reuniones que se producen entre abogados y clientes, con el objetivo de tratar el caso sobre el que están trabajando. Pueden ser online o presenciales, y tienen un lugar y hora</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Cita</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0074" class="property">
+<br /><span class="keyword">var </span>Fecha : Date</li>
+<li id="ATT-0075" class="property">
+<br /><span class="keyword">var </span>Hora : Date</li>
+<li id="ATT-0076" class="property">
+<br /><span class="keyword">var </span>Modalidad : Modalidad</li>
+<li id="ATT-0077" class="property">
+<br /><span class="keyword">var </span>Lugar : String</li>
+<li id="ATT-0078" class="property">
+<br /><span class="keyword">var </span>Estatus : Estatus</li>
+<li id="ATT-0079" class="property">
+<br /><span class="keyword">var </span>Prioridad : Prioridad</li>
+<li id="ATT-0080" class="property">
+<br /><span class="keyword">var </span>Descripción : String</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0011-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0012" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0012</th>
+<th class="name_column" colspan="1">Calendario</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0012-description-html" class="code_comment code_description"><p>Los calendarios permiten a los abogados organizar y estructurar su trabajo, añadiendo citas y siendo recordados automáticamente cuando se acerquen. Además, pueden consultar los de sus compañeros, y ser consultados por sus clientes, con el objetivo de evitar solapamientos temporales entre las actividades</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Calendario</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0081" class="property">
+<br /><span class="keyword">var </span>Nombre : String</li>
+</ul>
+<br />
+<div class="code_comment code_header">// componentes</div>
+<ul class="properties">
+<li id="COM-0082" class="property">
+<br /><span class="keyword">var </span>Citas : Cita</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0012-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0013" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0013</th>
+<th class="name_column" colspan="1">Feed</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0013-description-html" class="code_comment code_description"><p>Los feeds son las bandejas de entrada en las que los abogados reciben acutalizaciones periódicas (configurables) de diferentes fuentes, como boletines (<a href='#GLO-0011' class="rem_ref">BOE</a>/BOJA), revistas de derecho, o <a href='#GLO-0016' class="rem_ref">LexNet</a></p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Feed</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0083" class="property">
+<br /><span class="keyword">var </span>Nombre : String</li>
+<li id="ATT-0084" class="property">
+<br /><span class="keyword">var </span>Periodo de actualización : Integer</li>
+</ul>
+<br />
+<div class="code_comment code_header">// componentes</div>
+<ul class="properties">
+<li id="COM-0085" class="property">
+<br /><span class="keyword">var </span>Fuentes : Fuente</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0013-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0014" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0014</th>
+<th class="name_column" colspan="1">Fuente</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0014-description-html" class="code_comment code_description"><p>Las distintas fuentes de información publican documentos, accedidos mediantes sus APIs públicas, y clasificadas según la categoría del tema que traten</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Fuente</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0086" class="property">
+<br /><span class="keyword">var </span>Nombre : String</li>
+<li id="ATT-0087" class="property">
+<br /><span class="keyword">var </span>URL : String</li>
+<li id="ATT-0088" class="property">
+<br /><span class="keyword">var </span>Descripción : String</li>
+<li id="ATT-0089" class="property">
+<br /><span class="keyword">var </span>CategoríaFuente : CategoriaFuente</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0014-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0015" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0015</th>
+<th class="name_column" colspan="1">Factura</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0015-description-html" class="code_comment code_description"><p>La factura represneta la cuenta a liquidar, con el importe total a pagar, tras la finalización del caso en curso</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">Factura</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0090" class="property">
+<br /><span class="keyword">var </span>Número de factura : Integer</li>
+<li id="ATT-0091" class="property">
+<br /><span class="keyword">var </span>Fecha emisión : Date</li>
+<li id="ATT-0092" class="property">
+<br /><span class="keyword">var </span>Fecha vencimiento : Date</li>
+<li id="ATT-0093" class="property">
+<br /><span class="keyword">var </span>Descripción : String</li>
+<li id="ATT-0094" class="property">
+<br /><span class="keyword">var </span>Importe total : Integer</li>
+</ul>
+<br />
+<div class="code_comment code_header">// componentes</div>
+<ul class="properties">
+<li id="COM-0095" class="property">
+<br /><span class="keyword">var </span>LineasFactura : LineaFactura</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0015-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="TYP-0016" class="object_type">
+<table class="object_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objectType.png" /> TYP-0016</th>
+<th class="name_column" colspan="1">LineaFactura</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="TYP-0016-description-html" class="code_comment code_description"><p>Una línea de una factura representa cada concepto concreto del caso al que pertenece la factura, junto a su importe individual</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">class </span>
+<span class="class_name ">LineaFactura</span>
+<br />
+
+    {<br />
+<div class="code_comment code_header">// atributos</div>
+<ul class="properties">
+<li id="ATT-0096" class="property">
+<br /><span class="keyword">var </span>Concepto : String</li>
+<li id="ATT-0097" class="property">
+<br /><span class="keyword">var </span>Base imponible : Real</li>
+<li id="ATT-0098" class="property">
+<br /><span class="keyword">var </span>Tipo impositivo : Real</li>
+<li id="ATT-0099" class="property">
+<br /><span class="keyword">var </span>Importe total línea : Real</li>
+</ul>
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="TYP-0016-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="VAL-0001" class="value_type">
+<table class="value_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/userDefinedValueType.png" /> VAL-0001</th>
+<th class="name_column" colspan="1">Privilegio</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="VAL-0001-description-html" class="code_comment code_description"><p>el privilegio del que goza el administrador</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword">value type </span>
+<span class="class_name">Privilegio</span>
+<br />
+            {<br />
+<div id="VAL-0001-definition-html" class="code_ocl"><p>enum{Lectura, Modificación, Eliminación}</p></div>
+            }
+        </div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="VAL-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="VAL-0002" class="value_type">
+<table class="value_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/userDefinedValueType.png" /> VAL-0002</th>
+<th class="name_column" colspan="1">TipoDocumento</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="VAL-0002-description-html" class="code_comment code_description"><p>el tipo (texto, audio o vídeo) de documento</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword">value type </span>
+<span class="class_name">TipoDocumento</span>
+<br />
+            {<br />
+<div id="VAL-0002-definition-html" class="code_ocl"><p>enum{Texto, Audio, Vídeo}</p></div>
+            }
+        </div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="VAL-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="VAL-0003" class="value_type">
+<table class="value_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/userDefinedValueType.png" /> VAL-0003</th>
+<th class="name_column" colspan="1">Modalidad</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="VAL-0003-description-html" class="code_comment code_description"><p>si la cita es online o presencial</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword">value type </span>
+<span class="class_name">Modalidad</span>
+<br />
+            {<br />
+<div id="VAL-0003-definition-html" class="code_ocl"><p>enum{Online, Presencial}</p></div>
+            }
+        </div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="VAL-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="VAL-0004" class="value_type">
+<table class="value_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/userDefinedValueType.png" /> VAL-0004</th>
+<th class="name_column" colspan="1">Estatus</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="VAL-0004-description-html" class="code_comment code_description"><p>el estatus de de la cita (pendiente, en curso o finalizada)</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword">value type </span>
+<span class="class_name">Estatus</span>
+<br />
+            {<br />
+<div id="VAL-0004-definition-html" class="code_ocl"><p>enum{Pendiente, En curso, Finalizada}</p></div>
+            }
+        </div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="VAL-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="VAL-0005" class="value_type">
+<table class="value_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/userDefinedValueType.png" /> VAL-0005</th>
+<th class="name_column" colspan="1">Prioridad</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="VAL-0005-description-html" class="code_comment code_description"><p>el nivel de prioridad de la cita</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword">value type </span>
+<span class="class_name">Prioridad</span>
+<br />
+            {<br />
+<div id="VAL-0005-definition-html" class="code_ocl"><p>enum{Leve, Normal, Urgente}</p></div>
+            }
+        </div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="VAL-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="VAL-0006" class="value_type">
+<table class="value_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/userDefinedValueType.png" /> VAL-0006</th>
+<th class="name_column" colspan="1">CategoriaFuente</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="VAL-0006-description-html" class="code_comment code_description"><p>la categoría de una fuente concreta (<a href='#GLO-0011' class="rem_ref">BOE</a>, BOJA, <a href='#GLO-0016' class="rem_ref">LexNet</a> o revista)</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword">value type </span>
+<span class="class_name">CategoriaFuente</span>
+<br />
+            {<br />
+<div id="VAL-0006-definition-html" class="code_ocl"><p>enum{Boletín, Revista, <a href='#GLO-0016' class="rem_ref">LexNet</a>}</p></div>
+            }
+        </div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="VAL-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0001" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0001</th>
+<th class="name_column" colspan="1">Administrador - Cliente legal(
+    Administrador, Cliente legal
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0001-description-html" class="code_comment code_description"><p>Los administradores consultan, aprueban, deniegan o eliminan los perfiles de los clientes de manera manual</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Administrador - Cliente legal(
+    Administrador, Cliente legal
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0100" class="property">
+<br /><span class="keyword">var </span>Administrador : Administrador</li>
+<li id="ROL-0101" class="property">
+<br /><span class="keyword">var </span>Cliente legal : Set(Cliente legal)
+            [0..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0002" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0002</th>
+<th class="name_column" colspan="1">Bufete - Abogados(
+    Bufete, Abogado
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0002-description-html" class="code_comment code_description"><p>En un bufete trabajan varios abogados</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Bufete - Abogados(
+    Bufete, Abogado
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0102" class="property">
+<br /><span class="keyword">var </span>Bufete : Bufete</li>
+<li id="ROL-0103" class="property">
+<br /><span class="keyword">var </span>Abogados : Set(Abogado)
+            [1..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0003" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0003</th>
+<th class="name_column" colspan="1">Juzgado - Jueces(
+    Juzgado, Juez
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0003-description-html" class="code_comment code_description"><p>En un juzgado trabajan varios jueces</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Juzgado - Jueces(
+    Juzgado, Juez
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0104" class="property">
+<br /><span class="keyword">var </span>Juzgado : Juzgado</li>
+<li id="ROL-0105" class="property">
+<br /><span class="keyword">var </span>Jueces : Set(Juez)
+            [1..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0004" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0004</th>
+<th class="name_column" colspan="1">Feed - Fuentes(
+    Feed, Fuente
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0004-description-html" class="code_comment code_description"><p>Un feed se nutre de varias fuentes de información</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Feed - Fuentes(
+    Feed, Fuente
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0107" class="property">
+<br /><span class="keyword">var </span>Feed : Feed</li>
+<li id="ROL-0106" class="property">
+<br /><span class="keyword">var </span>Fuentes : Set(Fuente)
+            [1..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0005" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0005</th>
+<th class="name_column" colspan="1">Cliente legal - Casos(
+    Cliente legal, Caso
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0005-description-html" class="code_comment code_description"><p>Un cliente legal tiene varios casos abiertos</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Cliente legal - Casos(
+    Cliente legal, Caso
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0108" class="property">
+<br /><span class="keyword">var </span>Cliente legal : Cliente legal</li>
+<li id="ROL-0109" class="property">
+<br /><span class="keyword">var </span>Casos : Set(Caso)
+            [0..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0006" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0006</th>
+<th class="name_column" colspan="1">Abogado - Casos(
+    Abogado, Caso
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<span class="keyword ">association </span>
+<span class="class_name ">Abogado - Casos(
+    Abogado, Caso
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0110" class="property">
+<br /><span class="keyword">var </span>Abogado : Abogado</li>
+<li id="ROL-0111" class="property">
+<br /><span class="keyword">var </span>Casos : Set(Caso)
+            [0..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0007" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0007</th>
+<th class="name_column" colspan="1">Juzgado - Casos(
+    Juzgado, Caso
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0007-description-html" class="code_comment code_description"><p>En un juzgado se juzgan varios casos</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Juzgado - Casos(
+    Juzgado, Caso
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0112" class="property">
+<br /><span class="keyword">var </span>Juzgado : Juzgado</li>
+<li id="ROL-0113" class="property">
+<br /><span class="keyword">var </span>Casos : Set(Caso)
+            [0..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0008" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0008</th>
+<th class="name_column" colspan="1">Caso - Factura(
+    Caso, Factura
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0008-description-html" class="code_comment code_description"><p>Un caso emite una factura que detalla los conceptos y le importe a pagar por el servicio abogacil recibido</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Caso - Factura(
+    Caso, Factura
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0114" class="property">
+<br /><span class="keyword">var </span>Caso : Caso</li>
+<li id="ROL-0115" class="property">
+<br /><span class="keyword">var </span>Factura : Factura</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0008-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0009" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0009</th>
+<th class="name_column" colspan="1">Factura - LineasFactura(
+    Factura, LineaFactura
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0009-description-html" class="code_comment code_description"><p>Una factura tiene una línea de factura por cada concepto contemplado por el abogado</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Factura - LineasFactura(
+    Factura, LineaFactura
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0116" class="property">
+<br /><span class="keyword">var </span>Factura : Factura</li>
+<li id="ROL-0117" class="property">
+<br /><span class="keyword">var </span>LineasFactura : Set(LineaFactura)
+            [1..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0009-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0010" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0010</th>
+<th class="name_column" colspan="1">Caso - Documentos(
+    Caso, Documento
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0010-description-html" class="code_comment code_description"><p>A un caso se aportan varios documentos relacionados con el mismo</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Caso - Documentos(
+    Caso, Documento
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0118" class="property">
+<br /><span class="keyword">var </span>Caso : Caso</li>
+<li id="ROL-0119" class="property">
+<br /><span class="keyword">var </span>Documentos : Set(Documento)
+            [0..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0010-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0011" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0011</th>
+<th class="name_column" colspan="1">Caso - Citas(
+    Caso, Cita
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0011-description-html" class="code_comment code_description"><p>Para la resolución exitosa de un caso, el abogado y su cliente legal se pueden reunir varias veces si así lo desean</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Caso - Citas(
+    Caso, Cita
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0120" class="property">
+<br /><span class="keyword">var </span>Caso : Caso</li>
+<li id="ROL-0121" class="property">
+<br /><span class="keyword">var </span>Citas : Set(Cita)
+            [0..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0011-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0012" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0012</th>
+<th class="name_column" colspan="1">Abogado - Calendarios(
+    Abogado, Calendario
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0012-description-html" class="code_comment code_description"><p>Un abogado tiene varios calendarios (personal, uno por cada cliente, etcétera)</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Abogado - Calendarios(
+    Abogado, Calendario
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0122" class="property">
+<br /><span class="keyword">var </span>Abogado : Abogado</li>
+<li id="ROL-0123" class="property">
+<br /><span class="keyword">var </span>Calendarios : Set(Calendario)
+            [0..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0012-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ASO-0013" class="association_type">
+<table class="association_type remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/associationType.png" /> ASO-0013</th>
+<th class="name_column" colspan="1">Abogado - Feeds(
+    Abogado, Feed
+    )
+</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (22/11/2023)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Pablo Caballero María</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="code">
+<div>
+<span class="code_comment">/**</span>
+<div id="ASO-0013-description-html" class="code_comment code_description"><p>Cada abogado dispone de varios feeds categorizados a los que puede acceder</p></div>
+<span class="code_comment">*/</span>
+</div>
+<span class="keyword ">association </span>
+<span class="class_name ">Abogado - Feeds(
+    Abogado, Feed
+    )
+</span>
+<br />
+    {<br />
+<div class="code_comment code_header">// roles</div>
+<ul class="properties">
+<li id="ROL-0124" class="property">
+<br /><span class="keyword">var </span>Abogado : Abogado</li>
+<li id="ROL-0125" class="property">
+<br /><span class="keyword">var </span>Feeds : Set(Feed)
+            [0..*]</li>
+</ul>
+
+    }
+</div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ASO-0013-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
 </div>
 <h2 id="SEC-0062" class="section">3.3 Diagramas de estado de las clases del sistema</h2>
 <div id="GRF-0014" class="figure">
