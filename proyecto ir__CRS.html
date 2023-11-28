@@ -2423,7 +2423,7 @@ El cliente selecciona el método de pago telemático entre las alternativas propor
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0002</th>
-<th class="name_column" colspan="2">Gestión de usuarios: clientes</th>
+<th class="name_column" colspan="2">Clientes</th>
 </tr>
 </thead>
 <tr>
@@ -2461,7 +2461,7 @@ El cliente selecciona el método de pago telemático entre las alternativas propor
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0003</th>
-<th class="name_column" colspan="2">Gestión de usuarios: abogados</th>
+<th class="name_column" colspan="2">Abogados</th>
 </tr>
 </thead>
 <tr>
@@ -2498,7 +2498,7 @@ El cliente selecciona el método de pago telemático entre las alternativas propor
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0004</th>
-<th class="name_column" colspan="2">Gestión de casos</th>
+<th class="name_column" colspan="2">Casos</th>
 </tr>
 </thead>
 <tr>
@@ -2538,7 +2538,7 @@ Ha de cumplirse la <a href='#GLO-0007' class="rem_ref">LOPD</a>.</p></div>
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0005</th>
-<th class="name_column" colspan="2">Gestión de calendarios</th>
+<th class="name_column" colspan="2">Calendarios</th>
 </tr>
 </thead>
 <tr>
@@ -2576,7 +2576,7 @@ Ha de cumplirse la <a href='#GLO-0007' class="rem_ref">LOPD</a>.</p></div>
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0006</th>
-<th class="name_column" colspan="2">Gestión de pagos</th>
+<th class="name_column" colspan="2">Pagos</th>
 </tr>
 </thead>
 <tr>
@@ -2749,6 +2749,62 @@ Ha de cumplirse la <a href='#GLO-0007' class="rem_ref">LOPD</a>.</p></div>
 </tr>
 </table>
 </div>
+<div id="CRQ-0006">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0006</th>
+<th class="name_column" colspan="1">Imposibilidad de fijar cita</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0006-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: El cliente no podrá fijar una cita que interfiera con eventos del calendario personal de su abogado.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0007">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0007</th>
+<th class="name_column" colspan="1">Presupuesto mínimo</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0007-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: No se podrá proporcionar un presupuesto por debajo del mínimo legal .</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0035" class="section">6.3.3 Requisitos de conducta del sistema</h3>
 <div id="FRQ-0001">
 <table class="functional_requirement remus_table">
@@ -2802,6 +2858,118 @@ Ha de cumplirse la <a href='#GLO-0007' class="rem_ref">LOPD</a>.</p></div>
 <th>Comentarios</th>
 <td colspan="1">
 <div id="FRQ-0002-comments-html" class="remus_comments"><p>Los datos sensibles se codificarán cumplimentando la <a href='#GLO-0007' class="rem_ref">LOPD</a></p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0003">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0003</th>
+<th class="name_column" colspan="1">Listado mensual de citas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0003-description-html" class=""><p>El sistema deberá registrar las citas que un abogado tiene con sus clientes y proporcionarlas mediante un listado a final de mes.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0003-comments-html" class="remus_comments"><p>El formato será: fecha, cliente legal y asunto</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0004">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0004</th>
+<th class="name_column" colspan="1">Registro de ingresos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0004-description-html" class=""><p>El sistema deberá proporcinar un registro de los ingresos obtenidos por parte de un abogado en un periodo de tiempo.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0004-comments-html" class="remus_comments"><p>El abogado puede configurar el registro para que se le proporcione cada tres meses en lugar de uno que es la opcion por defecto</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0005">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0005</th>
+<th class="name_column" colspan="1">Informe resumen</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0005-description-html" class=""><p>El sistema deberá proporcionar un informe al abogado con el resumen de los casos tratados con un determinado cliente legal.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0006">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0006</th>
+<th class="name_column" colspan="1">Notificación de pago</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (28/11/2023)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0006-description-html" class=""><p>El sistema deberá enviar un aviso personalizado a cada cliente de manera periódica como recordatorio de pago y que este sea más frecuente conforme más se acerque la fecha límite establecida.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
 </td>
 </tr>
 </table>
